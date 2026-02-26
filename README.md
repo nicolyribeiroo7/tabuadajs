@@ -1,75 +1,94 @@
-📊 Gerador de Tabuada em JavaScript
+📘 Gerador de Tabuadas em Grid
 
-Este projeto é um exemplo simples de aplicação web que gera a tabuada de um número informado pelo usuário, utilizando HTML e JavaScript.
-O foco principal é demonstrar o uso de operadores de atribuição e laços de repetição.
+Projeto web simples desenvolvido com HTML, CSS e JavaScript, que gera automaticamente as tabuadas do 1 ao 10, exibindo cada uma em cards organizados em grid, com visual moderno na cor azul.
 
-🎯 Objetivo
+🎯 Objetivo do Projeto
 
-Gerar a tabuada de um número de 1 a 10
+Praticar laços de repetição (for)
 
-Praticar:
+Trabalhar com manipulação do DOM
 
-Operadores de atribuição (*=, +=)
+Organizar conteúdo com CSS Grid
 
-Laço for
-
-Manipulação do DOM com JavaScript
+Criar uma interface simples, limpa e responsiva
 
 🧱 Estrutura do Projeto
 /
-└── index.html   # Estrutura HTML e script JavaScript
-
-Todo o código está concentrado em um único arquivo para facilitar o aprendizado.
-
+├── index.html   # Estrutura HTML e script JavaScript
+├── style.css    # Estilização e layout em grid
+└── README.md    # Documentação do projeto
 🛠️ Tecnologias Utilizadas
 
 HTML5
+
+CSS3
+
+Grid Layout
+
+Efeitos visuais simples
 
 JavaScript (Vanilla JS)
 
 ⚙️ Como Funciona
 
-O usuário digita um número no campo de entrada
+O usuário clica no botão “Gerar Tabuada”
 
-Ao clicar no botão “Gerar Tabuada”:
+O JavaScript:
 
-O JavaScript captura o valor digitado
+Cria as tabuadas do 1 ao 10
 
-Um laço for calcula a multiplicação de 1 até 10
+Usa dois laços for (um externo e um interno)
 
-O operador *= é usado para realizar os cálculos
+Gera dinamicamente os cards
 
-O resultado é exibido dinamicamente na tela
+Cada tabuada aparece em um card, organizado automaticamente no grid
 
-📌 Exemplo de Saída
-Tabuada do 5
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-...
-5 x 10 = 50
+📌 Funcionalidades
+
+✅ Geração automática das tabuadas
+
+✅ Layout em cards
+
+✅ Organização lado a lado (não fica uma embaixo da outra)
+
+✅ Design simples com cor azul
+
+✅ Responsivo (funciona em telas menores)
+
+🖥️ Exemplo Visual (descrição)
+
+Botão centralizado no topo
+
+Cards distribuídos em colunas
+
+Cada card contém:
+
+Título da tabuada
+
+Multiplicações de 1 a 10
+
 ▶️ Como Executar
 
 Baixe ou clone o projeto
 
-Abra o arquivo index.html em qualquer navegador
+Abra o arquivo index.html no navegador
 
-Digite um número e clique em Gerar Tabuada
+Clique em Gerar Tabuada
 
-Não é necessário servidor ou instalação adicional.
+Não é necessário instalar nada.
 
 📚 Conceitos Trabalhados
 
-Conversão de valores (Number())
-
-Manipulação de elementos HTML (getElementById)
-
 Estrutura de repetição for
 
-Operadores de atribuição
+Template strings (`texto ${variavel}`)
 
-Escrita dinâmica no HTML (innerHTML)
+innerHTML
+
+CSS Grid
+
+Organização visual com cards
 
 👨‍💻 Autor
 
-Projeto educacional para prática de JavaScript básico.
+Projeto educacional para estudo de JavaScript básico e CSS Grid.
